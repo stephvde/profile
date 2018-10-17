@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #f9ad8d;
+/*  color: #f9ad8d;*/
   text-decoration: none;
 }
 
@@ -79,6 +79,10 @@ table {
   border-radius: 4px;
 }
 
+.card:hover {
+  box-shadow: 1px 1px 8px RGBA(0, 0, 0, 0.2);
+}
+
 .icon-big {
   font-size: 20px;
   line-height: 1;
@@ -97,10 +101,14 @@ ul {
   border-radius: 3px;
 }
 
+.btn-color:hover {
+  text-decoration: none;
+  background-color: #F47645;
+}
+
 .list-inline {
   padding-left: 0;
 }
-
 
 
 
