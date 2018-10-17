@@ -1,0 +1,125 @@
+h1, h2, h3 {
+  font-family: Roboto;
+}
+h1 {
+  color: #F47645;
+  font-size: 26px;
+  line-height: 1.6;
+  font-
+}
+
+h2 {
+  color: RGB(150, 150, 150);
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 250;
+}
+
+h3 {
+  color: #f9ad8d;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+body {
+  background-color: RGB(235, 235, 235);
+  line-height: 1.6em;
+  font-size : 15px;
+  color: RGB(150, 150, 150);
+  font-family: Open Sans, sans-serif;
+}
+
+a {
+  color: RGB(150, 150, 150);
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+}
+
+a:hover {
+  color: #f9ad8d;
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+table {
+  text-align: start;
+}
+
+#profile_picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid RGB(230, 230, 230);
+}
+
+.img_sport {
+  border-radius: 1%;
+  width: 300px;
+  height:;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  box-shadow: 1px 1px 1px RGBA(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.icon-big {
+  font-size: 20px;
+  line-height: 1;
+  color: #f9ad8d;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn-color {
+  background-color: #f9ad8d;
+  color: white;
+  font-weight: 250;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
